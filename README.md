@@ -191,5 +191,5 @@ Kumparanian SDK
 | `_save_report(path)` | Menyimpan laporan hasil pelatihan ke file teks. |
 | `predict(text)` | Mengklasifikasikan topik artikel baru. |
 | `save_pickle(path)` | Menyimpan seluruh model ke dalam satu file pickle. |
-
 | `load_pickle(path)` | Memuat ulang model dari file pickle. |
+
