@@ -29,20 +29,20 @@ Tujuan utama dari model ini adalah untuk mengklasifikasikan artikel berdasarkan 
 ## 🧠 Arsitektur Model
 ```bash
 Article Text
-                │
-                ▼
+│
+▼
 Preprocessing (tokenization, stopwords, stemming)
-                |
-                ▼
+|
+▼
 FastText Embedding (vector_size=300)
-                │
-                ▼
+│
+▼
 Sentence Vectorization (mean pooling)
-                │
-                ▼
+│
+▼
 Logistic Regression Classifier
-                │
-                ▼
+│
+▼
 Predicted Topic
 ```
 
@@ -191,4 +191,5 @@ Kumparanian SDK
 | `_save_report(path)` | Menyimpan laporan hasil pelatihan ke file teks. |
 | `predict(text)` | Mengklasifikasikan topik artikel baru. |
 | `save_pickle(path)` | Menyimpan seluruh model ke dalam satu file pickle. |
+
 | `load_pickle(path)` | Memuat ulang model dari file pickle. |
