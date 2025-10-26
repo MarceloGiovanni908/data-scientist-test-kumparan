@@ -1,0 +1,46 @@
+📘 FASTTEXT + LOGISTIC REGRESSION TOPIC EXTRACTOR REPORT
+============================================================
+training_date: 2025-10-25 18:39:28
+dataset_size: (9931, 4)
+unique_topics: 29
+validation_accuracy: 0.8505
+training_duration_sec: 521.79
+
+=== Classification Report ===
+               precision    recall  f1-score   support
+
+       Bisnis       0.00      0.00      0.00         5
+   Bojonegoro       0.88      0.83      0.85        52
+      Ekonomi       0.89      0.96      0.93       352
+         Haji       0.99      0.99      0.99       297
+       Health       0.63      0.46      0.53        26
+      Hiburan       0.87      0.96      0.91       288
+        Horor       0.75      0.30      0.43        10
+        Hukum       0.76      0.76      0.76        17
+Internasional       0.83      0.88      0.86       148
+      Jakarta       0.00      0.00      0.00         2
+        K-Pop       0.71      0.42      0.53        12
+          KPK       1.00      0.71      0.83         7
+    Kesehatan       0.54      0.58      0.56        38
+     Keuangan       0.00      0.00      0.00         3
+    Lifestyle       0.71      0.79      0.75       114
+       MotoGP       0.00      0.00      0.00         7
+  Obat-obatan       0.33      0.08      0.13        12
+     Otomotif       0.93      0.80      0.86        35
+   Pendidikan       0.92      0.86      0.89        14
+     Personal       0.62      0.31      0.42        16
+ Pilgub Jatim       1.00      0.40      0.57         5
+      Politik       0.60      0.45      0.51        20
+     Regional       0.00      0.00      0.00         7
+        Sains       0.64      0.51      0.57        35
+      Sejarah       0.56      0.36      0.43        14
+   Sepak Bola       0.85      0.97      0.90       236
+       Sports       0.73      0.49      0.59        87
+    Teknologi       0.85      0.92      0.88       113
+       Travel       0.44      0.27      0.33        15
+
+     accuracy                           0.85      1987
+    macro avg       0.62      0.52      0.55      1987
+ weighted avg       0.83      0.85      0.84      1987
+
+============================================================
