@@ -97,7 +97,7 @@ Menyimpan hasil pelatihan dan model ke file `model.pickle`.
 
 3. Gunakan Model untuk Prediksi
 
-Kamu bisa memuat model dan melakukan prediksi dengan contoh kode berikut:
+load model dan melakukan prediksi dengan contoh kode berikut:
 
 ```python
 from model import Model
@@ -192,4 +192,5 @@ Kumparanian SDK
 | `predict(text)` | Mengklasifikasikan topik artikel baru. |
 | `save_pickle(path)` | Menyimpan seluruh model ke dalam satu file pickle. |
 | `load_pickle(path)` | Memuat ulang model dari file pickle. |
+
 
